@@ -1,8 +1,29 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.lovelyblue.asfragmentexample.DetailFragment">
+    android:orientation="vertical"
+    tools:context="com.example.lovelyblue.asfragmentexample.DetailFragment"
+    >
 
     <!-- TODO: Update blank fragment layout -->
 
-</FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Title"
+        android:id="@+id/tvTitle" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivImage"
+        android:background="@drawable/image128_android" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按鈕"
+        android:onClick="btnDetailButtonPressed"
+        android:id="@+id/button" />
+</LinearLayout>

@@ -6,4 +6,12 @@
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="string_list_array">
+        <item>Android</item>
+        <item>Apple</item>
+        <item>Facebook</item>
+        <item>Google Plus</item>
+        <item>twitter</item>
+        <item>youtube</item>
+    </string-array>
 </resources>
